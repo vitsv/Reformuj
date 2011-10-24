@@ -1,0 +1,317 @@
+<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js"></script>
+<script type="text/javascript" >
+    var _ref_param = {
+        title:'feedback.userecho.com',
+        b_title:'feedback',
+        tab_alignment:'right',
+        tab_text_color:'#ffffff',
+        tab_bg_color:'#ee105a'
+    };
+</script>
+
+<script type="text/javascript" src="js/widget.js"></script>
+<style type="text/css">
+    #desk h1, #desk #p_bottom {
+
+        background: #b8c6df; /* old browsers */
+        background: -moz-linear-gradient(left, #b8c6df 0%, #6d88b7 100%); /* firefox */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b8c6df), color-stop(100%,#6d88b7)); /* webkit */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=1 ); /* ie */
+
+    }
+
+    #desk a {
+        color: #3B5998;
+    }
+
+    #desk #powered_by {
+        background-image: url("/s/images/powered_by_ue.png");
+    }
+
+    * html #desk #powered_by {
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/s/images/powered_by_ue.png");
+    }
+
+    #search_button {
+        background-color: #6D84B4;
+    }
+
+    #id_description {
+        height: 130px;
+        resize:none;
+    }
+    * {
+        margin: 0px;
+    }
+
+    a {
+        color: #369;
+    }
+
+    #popContainer {
+        background:rgba(82,82,82,0.7);
+        _background:#868686;
+        padding:10px;
+        border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;
+        -webkit-background-clip: padding-box;
+        _zoom:1
+    }
+
+    #desk {
+        background-color: #fbfbfb;
+
+        /*border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;*/
+
+        border: solid 2px #aaa;
+
+        font-size: 12px;
+        font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    #desk h1 {
+        /*ckground-color: #{{wh_color}};*/
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        /*border-bottom: solid 2px #aaa;*/
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin: 0px;
+    }
+
+    #desk p {
+        color: #333;
+        margin-top: 0px;
+        padding-top: 2px;
+        margin-bottom: 10px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        /*background-color: #fbfbfb;*/
+
+    }
+
+    #desk a {
+        text-decoration: none;
+        /*color: #{{ wl_color }};*/
+    }
+
+    #desk b {
+        /*font-size: 10px;*/
+        color: #333;
+    }
+
+
+    #desk li {
+        font-size: 12px;
+        /*background-color: #EDEFF4;*/
+        /*border: solid 1px #DCE2EC;*/
+        margin-bottom: 5px;
+
+        /*border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;*/
+        height: 46px;
+        min-height: 32px;
+        /*padding: 3px;*/
+        overflow: hidden;
+
+    }
+
+
+    #desk ul {
+        margin: 0px;
+        padding-top: 5px;
+        padding-left:  10px;
+        padding-right:  10px;
+        padding-bottom: 5px;
+        list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+        display:block;
+        background-color: #eee;
+    }
+
+
+
+    #desk #p_bottom h2{
+        margin-top:5px;
+    }
+
+
+    #desk h2 {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        float:left;
+    }
+
+
+    img {
+        border: 0px;
+    }
+
+    #search_block {
+        border: solid 1px #777777;
+        -moz-border-radius: 0.5em;
+        -webkit-border-radius: 0.5em;
+        width: 394px;
+        height: 28px;
+        background-color: white;
+        /*overflow:hidden;*/
+    }
+
+    #id_search{
+        border: none;
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
+        margin-top:4px;
+        line-height: 14px;
+
+        width: 320px;
+        display: block;
+
+        padding-left: 10px;
+        color: #333333;
+        font-size:14px;
+        /*position:absolute;*/
+    }
+
+    #id_search:focus{
+        outline:none;
+    }
+
+    #search_button{
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        height: 28px;
+        /*background-color: #{{wh_color}};*/
+        color: #ffffff;
+        font-weight:bold;
+        font-size: 12px;
+        cursor: pointer;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 0px;
+        line-height: 28px;
+
+        margin-right: 0px;
+        float: right;
+
+        border-bottom-right-radius: 0.3em 0.3em;
+        border-top-right-radius: 0.3em 0.3em;
+
+        z-index: 2;
+    }
+
+    #search_button:hover{
+        color: #cfeaff;
+    }
+
+    #helper {
+        color:#999999;
+        font-size:13px;
+        left:15px;
+        position:absolute;
+        top:5px;
+        z-index:1;
+        cursor: text;
+    }
+
+    #desk h1, #desk #p_bottom {
+        background:-moz-linear-gradient(left center , #B8C6DF 0%, #6D88B7 100%) repeat scroll 0 0 transparent;
+    }
+    #finput {
+        background-color:#DDDDDD;
+        padding:10px;
+    }
+    #p_bottom {
+        height:30px;
+        padding-top:5px;
+    }
+
+    #ue-overlay {
+        background-color:#000000;
+        height:100%;
+        left:0;
+        opacity:0.5;
+        position:absolute;
+        top:0;
+        width:100%;
+        z-index:100002;
+    }
+    #ue-dlg[id], #ue-overlay[id] {
+        position:fixed;
+    }
+    #ue-dlg {
+        background-color:transparent;
+        display:block;
+        margin:-2em auto 0;
+        position:absolute;
+        text-align:left;
+        z-index:100003;
+    }
+    #ue-dlg #ue-dlg-close {
+background-color:transparent;
+background-position:0 0;
+background-repeat:no-repeat;
+color:#0066CC;
+cursor:pointer;
+height:32px;
+position:absolute;
+right:15px;
+top:12px;
+width:32px;
+}
+a#ue-dlg-close {
+background-image:url("http://localhost/ls/templates/skin/developer/images/close_box.png");
+}
+</style>
+
+<div style="width: auto; height: auto; top: 40px; display: block; left: 420px;" class="ue-component" id="ue-dlg">
+    <a id="ue-dlg-close" onclick="UE.Dialog.close(); return false;" href="#">
+        <span style="display: none;">Close</span>
+    </a>
+    <div id="ue-dlg-content">
+        <div id="popContainer">
+           
+            <div id="desk">
+                <h1>Zostaw swoją sugestię:</h1>
+                <div style="overflow: hidden;" id="div_search">
+                    <div id="finput">
+                        <form method="post" id="search_form"><div style="display: none;"><input type="hidden" value="622433b7c5bf5cc6e54a25a1dbcb97b8" name="csrfmiddlewaretoken" id="csrfmiddlewaretoken"></div>
+                            <div style="position: relative;" id="search_block">
+                                <div onclick="searchFormNext();" id="search_button">Dalej</div>
+                                <label onclick="document.getElementById('id_search').focus()" id="helper" for="id_search">Twoja sugestia...</label>
+                                <input type="text" onfocus="document.getElementById('helper').style.display = 'none';document.getElementById('search_block').style.backgroundColor = '#FFFFCC';" onblur="document.getElementById('search_block').style.backgroundColor = 'white';" name="search" id="id_search">
+                            </div>
+                        </form>
+                        <div style="display: none;" id="feedback-similar-text">Похожие отзывы отображаются на вкладке ниже. Если Ваш отзыв уникален, пожалуйста, добавьте его.</div>
+                    </div>
+
+ghrhg
+
+                </div>
+
+                <div id="p_bottom">
+                    <a target="_blank" href="http://feedback.userecho.com/forum/1-general/"><h2> >> Wszystkie sugestie</h2></a>
+                    <a target="_blank" href="http://userecho.com/ru/" id="powered_by"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div style="display: block;" onclick="UE.Dialog.close(); return false;" class="ue-component" id="ue-overlay"></div>

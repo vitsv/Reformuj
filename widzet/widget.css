@@ -1,0 +1,170 @@
+#finput {
+background-color:#DDDDDD;
+padding:10px;
+width:556px;
+}
+#search_block {
+-moz-border-radius:0.5em 0.5em 0.5em 0.5em;
+background-color:white;
+border:1px solid #777777;
+height:28px;
+width:394px;
+}
+#search_button {
+border:0 none;
+color:#FFFFFF;
+cursor:pointer;
+float:right;
+font-size:12px;
+font-weight:bold;
+height:28px;
+line-height:28px;
+margin:0;
+padding:0 5px;
+width:auto;
+z-index:2;
+}
+#helper {
+color:#999999;
+cursor:text;
+font-size:13px;
+left:15px;
+position:absolute;
+top:5px;
+z-index:1;
+}
+#topic_title {
+background-color:transparent;
+border:medium none;
+color:#333333;
+display:block;
+font-size:14px;
+line-height:14px;
+margin:4px 0 0;
+padding:0 0 0 10px;
+width:320px;
+}
+#search_button {
+background-color:#6D84B4;
+}
+* {
+margin:0;
+}
+.idea-top {
+-moz-border-radius: 5px 5px 5px 5px;
+padding:8px 9px 0 7px;
+background-color:#F5F5F5;
+border:1px solid #DDDDDD;
+float:none;
+height:25px;
+overflow:hidden;
+width:533px;
+font:12px/18px Tahoma,Arial,Sans-Serif;
+margin:5px;
+}
+.idea-top a {
+text-decoration: none;
+color:#1F8AB7;
+}
+.idea-top a:hover{
+color:#333333;
+}
+.mini_title {
+float:left;
+position:relative;
+top:-18px;
+left:75px;
+font-size:14px;
+}
+.ref-more a{
+color:#1F8AB7;
+float:left;
+font-size:13px;
+font-weight:bold;
+margin-bottom:0;
+margin-top:5px;
+padding-left:20px;
+text-decoration:none;
+font-family:arial;
+}
+
+/* Voting */
+/*.voting { overflow: hidden; zoom: 1;height:52px;width:82px;float:left;padding:12px 0 0 16px;}*/
+.voting-but {
+width:10px;
+left:-10px;
+top:-4px;
+position:relative;
+}
+.voting {
+ overflow: hidden;
+ zoom: 1;
+ }
+
+ 
+
+.voting .total { float: left; padding: 0 7px; font-weight: bold; color: #aaa;
+background-color:transparent;
+font-family:arial;
+font-size:20px;
+font-style:normal;
+font-weight:bold;
+letter-spacing:-1px;
+}
+.voting .total a { text-decoration: none; color: #999; outline: none; }
+.vit {
+background-color:transparent;
+color:#555555;
+display:block;
+font-size:20px;
+font-style:normal;
+font-weight:bold;
+letter-spacing:-1px;
+position:relative;
+left:5px;
+top: -9px;
+ }
+
+.voting.positive .total { color: #390; }
+.voting.negative .total { color: #f00; }
+
+.voting .plus,
+.voting .minus 			{ width: 10px; height: 10px; float: left; display: block; background: url(http://localhost/ls/widzet/voting.png) no-repeat; position: relative; top: 4px; outline: none; }
+.voting .plus 			{ background-position: 0 0; }
+.voting .minus 			{ background-position: -20px 0; }
+.voting .plus:hover 	{ background-position: -10px 0; }
+.voting .minus:hover 	{ background-position: -30px 0; }
+
+.voting.voted.plus 	.plus 			{ background-position: -10px 0; }
+.voting.voted.minus .minus 			{ background-position: -30px 0; }
+.voting.voted.plus 	.minus:hover 	{ background-position: -20px 0; }
+.voting.voted.minus .plus:hover 	{ background-position: 0 0; }
+
+.voting.guest .plus:hover 	{ background-position: 0 0; }
+.voting.guest .minus:hover 	{ background-position: -20px 0; }
+.ref-wr-add textarea {
+border:1px solid #9EB7D8;
+color:#000000;
+font-size:17px;
+letter-spacing:-1px;
+line-height:normal;
+margin-bottom:0;
+margin-left:0;
+margin-top:0;
+padding:0 5px 2px;
+width:395px;
+}
+.ref-wr-add textarea:focus {
+background-color: #FFFFCC;
+border:1px solid #CCCC88;
+}
+.ref-wr-add label {
+color:#555555;
+display:block;
+float:left !important;
+font-size:15px;
+font-weight:bold;
+margin-right:0 !important;
+text-align:left !important;
+width:395px !important;
+}

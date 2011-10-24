@@ -1,0 +1,6 @@
+﻿Reformator
+
+Aby zainstalować system należy:
+1. Skopiować pliki do serwera
+2. Utworzyć baze danych za pomocą pliku struktury bazy danych Baza_danych.sql
+3. Odpowiednio zmienić konfigurację ścieżek oraz bacy danych w plikach konfiguracyjnych /config/config.php oraz /config/config.local.php
